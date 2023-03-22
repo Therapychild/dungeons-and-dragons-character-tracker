@@ -1,0 +1,80 @@
+@font-face{
+    font-family: 'dungeons';
+    src: url('DUNGRG__.TTF');
+}
+
+header {
+    background-image: url("https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg");
+    text-align: center;
+    color: white;
+    font-family: 'dungeons';
+    width: 640px;
+}
+
+#header-mask {
+    background-color: rgba(0, 0, 0, .6);
+}
+
+#title {
+    padding: 20px 0 0;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+#title-split {
+    width: 75%;
+}
+
+#sub-title {
+    padding: 10px 0 20px;
+    font-size: 30px;
+}
+
+
+body {
+    margin: 0;
+    width: 640px;
+}
+
+.player-container {
+    display: flex;
+    flex-direction: row;
+    border: 1px red solid;
+    padding: 5px;
+}
+
+.player-name,
+.player-class,
+.player-vitality {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    flex-grow: 1;
+    justify-content: flex-start;
+    width: 33%;
+    gap: 8px;
+}
+
+.player-vitality {
+    display: flex;
+    justify-content: space-between
+}
+
+.p-title,
+.c-title,
+.v-title {
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    gap: 8px;
+    
+}
+
+.btn {
+    width: 40px;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+}
